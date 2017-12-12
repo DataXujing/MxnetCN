@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Mxnet 中文文档（基于R）</title>
+  <meta name="description" content="Mxnet的R语言官方文档">
+  <meta name="generator" content="bookdown 0.5 and GitBook 2.6.7">
+
+  <meta property="og:title" content="Mxnet 中文文档（基于R）" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="Mxnet的R语言官方文档" />
+  <meta name="github-repo" content="DataXujing/MxnetCN" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Mxnet 中文文档（基于R）" />
+  
+  <meta name="twitter:description" content="Mxnet的R语言官方文档" />
+  
+
+<meta name="author" content="徐静，廖希洋">
+
+
+<meta name="date" content="2017-12-12">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  
+  
+
+<link rel="next" href="e5ba8fe8a880.html">
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="https://dataxujing.github.io">HomePage</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>声明</a></li>
+<li class="chapter" data-level="" data-path="e5ba8fe8a880.html"><a href="e5ba8fe8a880.html"><i class="fa fa-check"></i>序言</a></li>
+<li class="chapter" data-level="" data-path="e8af91e88085e7ae80e4bb8b.html"><a href="e8af91e88085e7ae80e4bb8b.html"><i class="fa fa-check"></i>译者简介</a></li>
+<li class="chapter" data-level="1" data-path="mxnet.html"><a href="mxnet.html"><i class="fa fa-check"></i><b>1</b> Mxnet深度学习框架介绍</a><ul>
+<li class="chapter" data-level="1.1" data-path="mxnet.html"><a href="mxnet.html#mxnet-"><i class="fa fa-check"></i><b>1.1</b> Mxnet 是什么</a></li>
+<li class="chapter" data-level="1.2" data-path="mxnet.html"><a href="mxnet.html#mxnet-"><i class="fa fa-check"></i><b>1.2</b> Mxnet 能干什么</a></li>
+<li class="chapter" data-level="1.3" data-path="mxnet.html"><a href="mxnet.html#mxnet"><i class="fa fa-check"></i><b>1.3</b> 本书Mxnet讲什么</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="rmxnet.html"><a href="rmxnet.html"><i class="fa fa-check"></i><b>2</b> R语言中Mxnet</a></li>
+<li class="chapter" data-level="3" data-path="section-3.html"><a href="section-3.html"><i class="fa fa-check"></i><b>3</b> 官方栗子解析</a></li>
+<li class="chapter" data-level="4" data-path="section-4.html"><a href="section-4.html"><i class="fa fa-check"></i><b>4</b> 学习资源整理</a></li>
+<li class="chapter" data-level="5" data-path="section-5.html"><a href="section-5.html"><i class="fa fa-check"></i><b>5</b> 参考文献</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Mxnet 中文文档（基于R）</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="header">
+<h1 class="title">Mxnet 中文文档（基于R）</h1>
+<h4 class="author"><em>徐静，廖希洋</em></h4>
+<h4 class="date"><em>2017-12-12</em></h4>
+</div>
+<div id="e5a3b0e6988e" class="section level1 unnumbered">
+<h1>声明</h1>
+<p>该文档结合了大量的网络资源和官方关于深度学习框架Mxnet的介绍，目前完整的中文文档还没有，我们翻译了Mxnet 在R语言中的使用，作为中文教程，译者水平有限，错误在所难免，译者会持续更新不断完善文档。</p>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+
+<a href="e5ba8fe8a880.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"google": false,
+"weibo": false,
+"instapper": false,
+"vk": false,
+"all": ["facebook", "google", "twitter", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/DataXujing/MxnetCN/index.Rmd",
+"text": "Edit"
+},
+"download": ["mxnet.pdf", "mxnet.epub"],
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

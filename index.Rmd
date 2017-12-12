@@ -1,0 +1,27 @@
+--- 
+title: "Mxnet 中文文档（基于R）"
+author: "徐静，廖希洋"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output: bookdown::gitbook
+documentclass: book
+bibliography: [book.bib, packages.bib]
+biblio-style: apalike
+link-citations: yes
+github-repo: DataXujing/MxnetCN
+description: "Mxnet的R语言官方文档"
+---
+
+# 声明{-}
+
+该文档结合了大量的网络资源和官方关于深度学习框架Mxnet的介绍，目前完整的中文文档还没有，我们翻译了Mxnet 在R语言中的使用，作为中文教程，译者水平有限，错误在所难免，译者会持续更新不断完善文档。
+
+# 序言{-}
+
+给译文写个序吧
+
+# 译者简介{-}
+
+**徐静：**
+
+**廖希洋：**
