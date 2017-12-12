@@ -13,18 +13,18 @@ description: "Mxnet的R语言官方文档"
 ---
 
 
-# Prerequisites{-}
+# Statement{-}
 
-This is a _sample_ book written in **Markdown**. You can use anything that Pandoc's Markdown supports, e.g., a math equation $a^2 + b^2 = c^2$.
+该文档结合了大量的网络资源和官方关于深度学习框架Mxnet的介绍，目前完整的中文文档还没有，我们翻译了Mxnet 在R语言中的使用，作为中文教程，译者水平有限，错误在所难免，译者会持续更新不断完善文档。
 
-For now, you have to install the development versions of **bookdown** from Github:
+# Preface{-}
 
-```{r eval=FALSE}
-devtools::install_github("rstudio/bookdown")
-```
+给译文写个序吧
 
-Remember each Rmd file contains one and only one chapter, and a chapter is defined by the first-level heading `#`.
+# About us{-}
 
-To compile this example to PDF, you need to install XeLaTeX.
+**徐静：**
+
+**廖希洋：**
 
 
